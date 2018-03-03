@@ -67,3 +67,7 @@ table {
 html {
     overflow-y: scroll;
 }
+
+html {
+	overflow-x: scroll;
+}
