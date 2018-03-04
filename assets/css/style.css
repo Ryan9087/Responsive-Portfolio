@@ -235,7 +235,7 @@ input[type=submit]:hover {
 }
 
 .container {
-    padding: 25px 20px 25px 20px;
+    padding: 0px 20px 25px 20px;
     font-family: 'Cinzel', serif;
     color: darkgray;
     margin-top: 25px;
@@ -478,6 +478,7 @@ input[type=submit]:hover {
         height: 80px;   
     }
 
+
     .name-box {
         background-color: #3D505D;
         color: white;
@@ -506,7 +507,7 @@ input[type=submit]:hover {
         float: right;
         text-align: right;
         margin: 0 0 0 0px;
-        padding: 36px 0 0px 65px;
+        padding: 32px 0 0px 65px;
         letter-spacing: 1px;
         word-spacing: 20px; 
         font-family: 'Raleway', sans-serif;
@@ -554,7 +555,7 @@ input[type=submit]:hover {
     .content-areai {
         background-image: url(../images/diagonal_waves.png);
         clear: both;
-        height: 840px;
+        height: 810px;
         border-style: solid;
         border-width: .3px 0 .3px 0;
         border-color: lightgray;
@@ -629,7 +630,7 @@ input[type=submit]:hover {
     .content-area {
         background-image: url(../images/diagonal_waves.png);
         clear: both;
-        height: 980px;
+        height: 930px;
         border-style: solid;
         border-width: .3px 0 .3px 0;
         border-color: lightgray;
@@ -640,7 +641,7 @@ input[type=submit]:hover {
         float: left;
         background-color: white;
         padding: 25px;
-        height: 605px; 
+        height: 550px; 
         border-style: solid;
         border-width: .3px;
         border-color:lightgray;
@@ -668,20 +669,25 @@ input[type=submit]:hover {
 
     .header-content {
         width: 550px;
-        height: 200px;
+        height: 110px;
         margin: auto; 
-        clear: both; 
-        display: flex;
+        display: inline-block;
+    }
+
+    header {
+        width: 550px;
+        margin: auto;
     }
 
     .name-box {
         float: left;  
         width: 100%;
-        /* height: 50px;
+        height: 35px;
         width: 550px;
         background-color: #3D505D;
         color: white;
-        padding: 0 0 0 0;
+        padding: 20px 0 10px 0;
+        margin: 0 0 0 0;
         text-align: center;
         font-size: 20pt;
         font-family: 'Cinzel', serif;
@@ -690,27 +696,27 @@ input[type=submit]:hover {
         border-color: lightgray;
         text-shadow: .5px .5px rgb(0, 0, 0);
         word-spacing: 5px;
-        letter-spacing: 1px; */
+        letter-spacing: 1px;
     }
  
     .my-picture {
-        width: 140px;
+        width: 500px;
         height: auto;
         float: left;
-        padding: 13px 20px 0px 0;
+        padding: 0 0 15px 0;
     }
 
     .nav-box {
         /* clear: both; */
         float: left;
         padding: 0;
-        /* text-align: center;
-        padding: 0px 0 0px 0px;
+        text-align: center;
+        padding: 15px 0 0px 0px;
         letter-spacing: 1px;
-        word-spacing: 20px; 
+        word-spacing: 50px; 
         font-family: 'Raleway', sans-serif;
-        height: 50px;
-        width: 550px;  */
+        height: 35px;
+        width: 550px; 
 
     } 
 
@@ -719,7 +725,7 @@ input[type=submit]:hover {
         float: left;
         background-color: white;
         padding: 25px;
-        height: 540px;
+        height: 1100px;
         border-style: solid;ß
         border-width: .3px;
         border-color: lightgray;
@@ -757,26 +763,26 @@ input[type=submit]:hover {
     .content-areai {
         background-image: url(../images/diagonal_waves.png);
         clear: both;
-        height: 920px;
+        height: 1480px;
         border-style: solid;
         border-width: .3px 0 .3px 0;
         border-color: lightgray;
     }
 
     .main-sectionp {
-        width: 588px;ß
-        /* float: left; */
+        width: 500px;
+        display: inline-block;
         background-color: white;
         padding: 25px;
-        height: 910px; 
+        height: 1990px; 
         border-style: solid;
         border-width: .3px;
         border-color: lightgray;
-        margin: auto;
+        margin: 0;
     }
 
     .port-image {
-        width: 240px;
+        width: 340px;
         padding: 20px 10px 20px 10px;
         margin: auto 0;
         /* border: 50px; */
@@ -785,19 +791,19 @@ input[type=submit]:hover {
     .containerR {
         position: relative;
         text-align: center;
-        width: 240px;
+        width: 340px;
         display: inline;
-        float: right;
-        padding: 0 20px 0 0;
+        float: left;
+        padding: 0 0px 0 55px;
     }
 
     .containerL {
         position: relative;
         text-align: center;
-        width: 240px;
+        width: 340px;
         display: inline;
         float: left;
-        padding: 0 20px 0 0;
+        padding: 0 0px 0 55px;
     }
     
     .grow-pic {
@@ -807,7 +813,7 @@ input[type=submit]:hover {
     .content-areap {
         background-image: url(../images/diagonal_waves.png);
         clear:both;
-        height: 1290px;
+        height: 2367px;
         border-style: solid;
         border-width: .3px 0 .3px 0;
         border-color: lightgray;
@@ -816,34 +822,34 @@ input[type=submit]:hover {
     .centered {
         position: absolute;
         top: 78%;
-        left: 50%;
+        left: 59.5%;
         transform: translate(-50%, -50%);
-        width: 93%;
+        width: 86.3%;
         background-color: #e6e6e6;
         height: 40px;
         color: #3D505D;
         text-align: center;
-        padding: 25px 0 0 0;
+        padding: 20px 0 5px 0;
         font-family: 'Cinzel', serif;
-        font-size: 14pt;
+        font-size: 18pt;
         letter-spacing: 1px;
     }
 
     .content-area {
         background-image: url(../images/diagonal_waves.png);
         clear: both;
-        height: 980px;
+        height: 930px;
         border-style: solid;
         border-width: .3px 0 .3px 0;
         border-color: lightgray;
     }
 
     .main-sectionc {
-        width: 588px;
+        width: 500px;
         float: left;
         background-color: white;
         padding: 25px;
-        height: 605px; 
+        height: 550px; 
         border-style: solid;
         border-width: .3px;
         border-color:lightgray;
